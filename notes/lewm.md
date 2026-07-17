@@ -43,7 +43,14 @@ LeWorldModel (LeWM) is the first JEPA-based world model that trains stably end-t
 * **Loss Functions:**
 
   **Prediction Loss (MSE, teacher-forced):**
-  $$L_{\text{pred}} \triangleq \|\hat{z}_{t+1} - z_{t+1}\|_2^2, \quad \hat{z}_{t+1} = \text{pred}_\phi(z_t, a_t)$$
+
+$$
+\hat{z}_{t+1} = \text{pred}_{\phi}(z_t, a_t)
+$$
+
+$$
+L_{\text{pred}} \triangleq \|\hat{z}_{t+1} - z_{t+1}\|_2^2
+$$
 
   **SIGReg (Sketched Isotropic Gaussian Regularizer):**
   $$\text{SIGReg}(Z) \triangleq \frac{1}{M} \sum_{m=1}^{M} T(h^{(m)}), \quad h^{(m)} = Z u^{(m)}, \; u^{(m)} \in \mathcal{S}^{d-1}$$
