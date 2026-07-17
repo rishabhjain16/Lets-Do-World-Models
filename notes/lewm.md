@@ -30,8 +30,9 @@ LeWorldModel (LeWM) is the first JEPA-based world model that trains stably end-t
   Observation (pixels) → Encoder (ViT-Tiny) → [CLS] token → Projector (MLP + BN) → Latent z_t
   (z_t, a_t) → Predictor (Causal Transformer + AdaLN) → Pred Projector (MLP + BN) → ẑ_{t+1}
   ```
-  Training: MSE(ẑ_{t+1}, z_{t+1}) + λ · SIGReg(Z)
-  Inference: MPC via Cross-Entropy Method (CEM) in latent space.
+  Training:  ``` MSE(ẑ_{t+1}, z_{t+1}) + λ · SIGReg(Z)  ```
+  
+  Inference:   ```MPC via Cross-Entropy Method (CEM) in latent space.  ```
 
 * **Novel Components:**
   * **Encoder:** Vision Transformer (ViT-Tiny), ~5M parameters. Patch size 14, 12 layers, 3 attention heads, hidden dim 192. The `[CLS]` token from the last layer is extracted and passed through a **Projector** (1-layer MLP + BatchNorm1d). BatchNorm replaces ViT's final LayerNorm to allow SIGReg to operate effectively — LayerNorm blocks the Gaussian shaping signal.
