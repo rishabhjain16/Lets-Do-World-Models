@@ -8,7 +8,8 @@ Below is the index of papers currently broken down in this repository. Each link
 
 | Status | Paper / Architecture | Key Focus | Notes Link |
 | :---: | :--- | :--- | :--- |
-| 🟢 | **LeJEPA** (Balestriero & LeCun, 2025) | JEPA + SIGReg | [Read Notes](notes/lejepa.md) |
+| 🟢 | **LeJEPA** (Balestriero & LeCun, 2025) | JEPA + SIGReg | [Read Notes](notes/lewm.md) |
+| 🟡 | **LeJEPA** (Balestriero & LeCun, 2025) | JEPA + SIGReg | [Read Notes](notes/lejepa.md) |
 | 🟡 | **World Models** (Ha & Schmidhuber, 2018) | VAE + MDN-RNN + Controller | [Read Notes](notes/world-models.md) |
 | ⚪️ | **I-JEPA** (Assran et al., 2023) | Vision Transformers, Masking | *Coming Soon* |
 | ⚪️ | **DreamerV3** (Hafner et al., 2023) | RSSM, Actor-Critic | *Coming Soon* |
