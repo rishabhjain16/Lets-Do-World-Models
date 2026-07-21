@@ -1,5 +1,6 @@
 # 📄 LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels
 
+
 ## 📌 TL;DR
 LeWorldModel (LeWM) is the first JEPA-based world model that trains stably end-to-end from raw pixels using only **two loss terms**: an MSE next-embedding prediction loss and a Sketched Isotropic Gaussian Regularizer (SIGReg) that prevents representation collapse by enforcing a Gaussian latent distribution. This eliminates the need for stop-gradient, EMA encoders, or pre-trained backbones, reducing tunable loss hyperparameters from six (PLDM) to one. The codebase implements the full model architecture, training loop, and MPC-based latent planning pipeline faithfully to the paper.
 
@@ -135,3 +136,11 @@ $$
   * **Physical probing evaluation absent:** The probing experiments from Sec. 5.1 (linear/MLP probes on agent location, block location, block angle) and the t-SNE visualizations are not present in the repo — no probing scripts found.
   * **Violation-of-Expectation (VoE) evaluation absent:** The surprise quantification evaluation from Sec. 5.2 is not implemented here; it likely resides in `stable-worldmodel` scripts.
   * **Baseline implementations absent:** PLDM, DINO-WM, GCBC, GCIVL, GCIQ are referenced in the README as available via the `stable-worldmodel` scripts folder, not this repository.
+
+
+---
+
+## Some additional Interesting Articles: 
+[LeWorldModel and the Case for Stable Latent World Models](https://medium.com/@adnanmasood/leworldmodel-and-the-case-for-stable-latent-world-models-0e4c33ca0f3c)
+
+![lewm-explained](./images/lewm1.jpeg)
