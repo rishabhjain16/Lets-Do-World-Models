@@ -4,6 +4,11 @@
 ## 📌 TL;DR
 LeWorldModel (LeWM) is the first JEPA-based world model that trains stably end-to-end from raw pixels using only **two loss terms**: an MSE next-embedding prediction loss and a Sketched Isotropic Gaussian Regularizer (SIGReg) that prevents representation collapse by enforcing a Gaussian latent distribution. This eliminates the need for stop-gradient, EMA encoders, or pre-trained backbones, reducing tunable loss hyperparameters from six (PLDM) to one. The codebase implements the full model architecture, training loop, and MPC-based latent planning pipeline faithfully to the paper.
 
+### Architecure 
+
+![lewm-arc](./images/lewm.png)
+
+
 ---
 
 ## 🔬 Research Overview & Core Problem
