@@ -19,7 +19,7 @@ Below is the index of papers currently broken down in this repository. Each link
 | ⚪️ | **Le MuMo JEPA** (Cornelissen et al., 2025) | Multi-Modal Self-Supervised Learning | *Coming Soon* | [2603.24327](https://arxiv.org/abs/2603.24327) |
 | ⚪️ | **MC-JEPA** (Bardes et al., 2025) | Motion & Content Features | *Coming Soon* | [2307.12698](https://arxiv.org/abs/2307.12698) |
 | ⚪️ | **Echo** (Joint-Embedding for Speech) | Speaker Diarization & Speech Recognition | *Coming Soon* | [2606.01909](https://arxiv.org/abs/2606.01909) |
-| ⚪️ | **s-JEPA** (Ioannides et al., 2025) | Speech Representation Learning | *Coming Soon* | [2606.19398](https://arxiv.org/abs/2606.19398) |
+| ⚪️ | **S-JEPA** (Ioannides et al., 2025) | Speech Representation Learning | *Coming Soon* | [2606.19398](https://arxiv.org/abs/2606.19398) |
 | ⚪️ | **ArtNet** (Hu et al., 2025) | Articulatory Predictive Framework | *Coming Soon* | [2606.16595](https://arxiv.org/abs/2606.16595) |
 | ⚪️ | **VLA-JEPA** (Sun et al., 2025) | Vision-Language-Action with Latent World Model | *Coming Soon* | [2602.10098](https://arxiv.org/abs/2602.10098) |
 
