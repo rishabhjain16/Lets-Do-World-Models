@@ -11,6 +11,8 @@ Below is the index of papers currently broken down in this repository. Each link
 | 🟢  | **World Models** (Ha & Schmidhuber, 2018) | VAE + MDN-RNN + Controller | [Read Notes](notes/world-models.md) | [1803.10122](https://arxiv.org/abs/1803.10122) |
 | 🟢 | **LeWorldModel** (Maes & LeCun, 2025) | LeWM (JePA) + SIGReg | [Read Notes](notes/lewm.md) | [2501.04690](https://arxiv.org/abs/2501.04690) |
 | 🟡 | **V-JEPA** (Meta & LeCun, 2025) | JEPA for Vision Stuff | [Read Notes](notes/vjepa.md) | [2411.05542](https://arxiv.org/abs/2411.05542) |
+| ⚪️ | **V-JEPA 2** (Assran et al., 2025) | Self-Supervised Video Models | *Coming Soon* | [2506.09985](https://arxiv.org/abs/2506.09985) |
+| ⚪️ | **V-JEPA 2.1** (Mur-Labadia et al., 2025) | Dense Video Representations | *Coming Soon* | [2603.14482](https://arxiv.org/abs/2603.14482) |
 | 🟡 | **LeJEPA** (Balestriero & LeCun, 2025) | JEPA + SIGReg | [Read Notes](notes/lejepa.md) | [2501.04690](https://arxiv.org/abs/2501.04690) |
 | ⚪️ | **I-JEPA** (Assran et al., 2023) | Vision Transformers, Masking | *Coming Soon* | [2301.08243](https://arxiv.org/abs/2301.08243) |
 | ⚪️ | **A-JEPA** (Fei et al., 2025) | Audio Joint-Embedding | *Coming Soon* | [2311.15830](https://arxiv.org/abs/2311.15830) |
