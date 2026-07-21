@@ -9,7 +9,7 @@ Below is the index of papers currently broken down in this repository. Each link
 | Status | Paper / Architecture | Key Focus | Notes Link | ArXiv |
 | :---: | :--- | :--- | :--- | :--- |
 | 🟢  | **World Models** (Ha & Schmidhuber, 2018) | VAE + MDN-RNN + Controller | [Read Notes](notes/world-models.md) | [1803.10122](https://arxiv.org/abs/1803.10122) |
-| 🟢 | **LeWorldModel** (Maes & LeCun, 2025) | LeWM (JePA) + SIGReg | [Read Notes](notes/lewm.md) | [2603.19312](https://arxiv.org/pdf/2603.19312)) |
+| 🟢 | **LeWorldModel** (Maes & LeCun, 2025) | LeWM (JePA) + SIGReg | [Read Notes](notes/lewm.md) | [2603.19312](https://arxiv.org/pdf/2603.19312) |
 | 🟡 | **V-JEPA** (Meta & LeCun, 2025) | JEPA for Vision Stuff | [Read Notes](notes/vjepa.md) | [2404.08471](https://arxiv.org/pdf/2404.08471) |
 | ⚪️ | **V-JEPA 2** (Assran et al., 2025) | Self-Supervised Video Models | *Coming Soon* | [2506.09985](https://arxiv.org/abs/2506.09985) |
 | ⚪️ | **V-JEPA 2.1** (Mur-Labadia et al., 2025) | Dense Video Representations | *Coming Soon* | [2603.14482](https://arxiv.org/abs/2603.14482) |
